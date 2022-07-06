@@ -25,5 +25,22 @@
     color: brown;
     cursor: pointer;
 }
+.banner-container{
+    display: flex;
+    width:100%;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+}
+.banner-text {
+    color: brown;
+    font-size:25px ;
+}
+.title1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
 
 
