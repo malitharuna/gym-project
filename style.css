@@ -64,9 +64,12 @@
 .section-two {
     margin-top: 50px;
     padding: 50px;
-    display: flex;
-}
 
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
 .card1 {
     height: 250px;
     width: 300px;
@@ -75,12 +78,12 @@
     box-shadow: 8px 8px 16px grey;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 40px;
+    transition: 0.8ms;
 }
 .card1:hover {
     margin-top: -20px;
     border: 1px solid red;
-    transition: 0.8ms;
+    transform: .3ms;
 }
 .gym-icon {
     width: 50px;
